@@ -55,7 +55,14 @@ The average amount of Vitc obtained from c39 is 51.5 units which is lower than t
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+
+Just like what we saw from the graphical results and the numerical results, there is a difference between the values of c39 and c59 and the P value shows that ( this is not happening by chance, there is a factor(reason behind these numbers)). 
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+From this data, we found that the c59 cultivation method gives more amounts of VitC than the c39 method. The graphical results, numerical results and the inferential results proved that.
